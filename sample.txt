@@ -1,0 +1,37 @@
+cuurent working directory-(git add filename)->staging area-(git commit)->Local push repository->(git push)>Remote Repository
+
+
+download git
+open cmd-run "git"
+make a folder at desktop
+open folder location in cmd
+commands
+>git enter
+not a repository(no files)
+make a example.txt in folder
+write some content 
+>git init
+>git status
+make a code.py
+add python commands
+>git status
+>git add example.txt
+>git status
+>git add code.py
+>git status
+>git commit -m "Sharing example.txt and code.py"
+open github
+create new repository
+give a name
+(public)
+create new repository
+git remote add origin .....(github name)
+>git push -u origin master
+
+
+
+
+
+
+
+//push 
